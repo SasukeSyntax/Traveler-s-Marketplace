@@ -6,9 +6,7 @@
 
 body {
     background-color: #251607;
-    color: #ffd8af;
-
-    
+    color: #ffd8af; 
 }
 
 .warningDiv {
@@ -72,6 +70,7 @@ body {
 
     border-top: 1px solid rgb(117, 30, 30);
     
+    padding: 30px 0;
 }
 
 .category-card {
@@ -86,6 +85,12 @@ body {
     align-items: center;
 
     flex-direction: column;
+    transition: transform 0.3s ease;
+    padding: 10px 0 0 0;
+}
+
+.category-card:hover {
+    transform: scale(1.03);
 }
 
 .category-card a {
@@ -101,6 +106,9 @@ body {
     height: 100%;
     /* border-radius: 3px; */
     transition: transform 0.3s ease;
+
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
 }
 
 .category-card a img:hover {
@@ -123,22 +131,23 @@ body {
     color: white;
 }
 
+.card-para {
+    font-family: "Edu QLD Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+}
 
-
-/* @media (max-width:700px) {
+@media (max-width: 700px) {
     .another-div {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        height: 200px;
+        display: block;
+        height: auto;
     }
 
     .category-card {
-        width: 60%;
-        height: 45px;
-
-        margin: 10px 0;
+        width: auto;
+        height: auto;
+        margin: 20px;
+        padding: 20px 0 0 0;
     }
-} */
+}

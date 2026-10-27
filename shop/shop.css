@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #251607;
+    color: #ffd8af; 
+
+    height: 100vh;
+}
+
+.shop-line-div {
+    width: 100%;
+    height: auto;
+
+    
+    padding: 30px;
+}
+
+.the-actual-line {
+    font-size: 3rem;
+  font-family: "Sancreek", serif;
+  font-weight: 200;
+  font-style: normal;
+  text-decoration: underline;
+  margin-left: 30px;
+}
