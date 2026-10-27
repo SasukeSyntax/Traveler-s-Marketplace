@@ -8,7 +8,7 @@ body {
     background-color: #251607;
     color: #ffd8af;
 
-    height: 100vh;
+    
 }
 
 .warningDiv {
@@ -68,15 +68,77 @@ body {
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 
     border-top: 1px solid rgb(117, 30, 30);
-    /* border-bottom: 1px solid rgb(117, 30, 30); */
+    
 }
 
 .category-card {
     width: 20%;
-    height: 30vh;
+    height: 90%;
 
-    background-color: aliceblue;
+    background-color: rgba(201, 118, 17, 0.319);
+    /* border-radius: 3px; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
 }
+
+.category-card a {
+    width: 90%;
+    height: 80%;
+
+    /* border-radius: 3px;
+    transition: transform 0.3s ease; */
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    /* border-radius: 3px; */
+    transition: transform 0.3s ease;
+}
+
+.category-card a img:hover {
+    transform: scale(1.03);
+
+}
+
+.details-div {
+    width: 90%;
+    /* height: 15%%; */
+    margin: 5px 0 0 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.details-div p {
+    color: white;
+}
+
+
+
+/* @media (max-width:700px) {
+    .another-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        height: 200px;
+    }
+
+    .category-card {
+        width: 60%;
+        height: 45px;
+
+        margin: 10px 0;
+    }
+} */
