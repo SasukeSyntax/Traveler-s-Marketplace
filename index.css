@@ -19,7 +19,7 @@ body {
 
     background-color: #913131;
 
-    border: 1px solid rgb(85, 3, 3);
+    border-bottom: 2px solid rgb(85, 3, 3);
 }
 
 .warningDiv p {
