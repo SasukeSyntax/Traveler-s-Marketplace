@@ -18,7 +18,7 @@ body {
 }
 
 .the-actual-line {
-    font-size: 3rem;
+    font-size: 4rem;
   font-family: "Sancreek", serif;
   font-weight: 200;
   font-style: normal;
@@ -83,11 +83,21 @@ body {
 .nameOfObject {
     width: 90%;
     height: 10%;
+
+    font-family: "Sancreek", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .object-discription {
     width: 90%;
     height: 40%;
+
+    margin: 10px 0 0 0;
+
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: italic;
 }
 
 .button {
@@ -103,7 +113,7 @@ body {
     height: 55%;
     border-radius: 5px;
     border-style: none;
-    background-color: #ffd8af;
+    background-color: rgba(201, 118, 17, 0.319);
 
     font-size: medium;
     font-family: "Edu QLD Hand", cursive;
@@ -112,10 +122,13 @@ body {
   font-style: normal;
 
   transition: transform 0.3s ease;
+  color: whitesmoke;
+
+  margin: 5px 0;
 }
 
 .shop-button:hover {
-    background-color: #ffd8afdf;
+    background-color: rgba(201, 118, 17, 0.412);
 
     transform: scale(1.05);
 }
