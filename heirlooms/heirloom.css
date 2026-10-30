@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #251607;
+    color: #ffd8af;
+
+    height: 100vh;
+}

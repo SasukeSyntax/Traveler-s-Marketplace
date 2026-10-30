@@ -7,7 +7,6 @@
 body {
     background-color: #251607;
     color: #ffd8af;
-    /* height: 100vh;  */
 }
 
 .memories-line-div {
@@ -16,7 +15,7 @@ body {
     padding: 30px;
 }
 
-.the-actual-line {
+.h-tag {
     font-size: 4rem;
   font-family: "Sancreek", serif;
   font-weight: 200;
@@ -25,7 +24,7 @@ body {
   margin-left: 3%;
 }
 
-.bigContainer {
+.card-holding-container-ig {
     width: 100%;
     height: auto;
 
@@ -38,7 +37,7 @@ body {
     padding: 20px 0;
 }
 
-.medium-container {
+.container-with-content {
     width: 90%;
     height: 70vh;
     /* background-color: black; */
@@ -52,12 +51,12 @@ body {
     border-radius: 3px;
 }
 
-.first-half {
+.picture {
     width: 35%;
     height: 100%;
 }
 
-.second-half {
+.discription-of-title {
     width: 60%;
     height: 100%;
 
@@ -79,7 +78,7 @@ body {
     border-radius: 5px;
 }
 
-.nameOfObject {
+.title {
     width: 90%;
     height: 15%;
 
@@ -101,14 +100,15 @@ body {
     font-style: italic;
 }
 
-.object-discription {
+.memory {
     width: 90%;
-    height: 60%;
+    height: 70%;
 
     margin: 10px 0 0 0;
 
     font-family: "Special Elite", system-ui;
     font-weight: 400;
     font-style: italic;
+    font-size: large
 }
 
