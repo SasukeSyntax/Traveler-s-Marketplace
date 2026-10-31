@@ -13,6 +13,10 @@ body {
     width: 100%;
     height: auto;
     padding: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .THELINE {
@@ -21,7 +25,6 @@ body {
     font-weight: 200;
     font-style: normal;
     text-decoration: underline;
-    margin-left: 3%;
 }
 
 .journal-book {
@@ -50,6 +53,13 @@ body {
 
 .blocks {
     height: 60vh;
+    overflow: scroll;
+    scrollbar-width: none;
+        -ms-overflow-style: none; 
+}
+
+.blocks::-webkit-scrollbar {
+  display: none; 
 }
 
 .texts {
@@ -58,6 +68,7 @@ body {
     font-style: italic;
 
     padding: 20px;
+
 }
 
 #one {
@@ -78,4 +89,23 @@ body {
 #four {
     border-left: 2px solid rgb(117, 30, 30);
     border-top: 2px solid rgb(117, 30, 30);
+}
+
+@media (max-width:750px) {
+    #one,
+    #two,
+    #three,
+    #four {
+        border-right: 2px solid rgb(117, 30, 30);
+    border-bottom: 2px solid rgb(117, 30, 30);
+
+    border-top: none;
+    border-left: none;
+    }
+
+    .journal {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
 }
