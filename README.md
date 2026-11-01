@@ -16,3 +16,7 @@ The website is split into three main pages, each serving a specific (and highly 
 # Why I made it ?
 Just to have fun! I feel like everyone is trying too hard to make everything useful or unique, in the middle of that usefulness i wanted to make something just for... Fun! an interesting little idea of "what if there is an unknown history recorded in a lost website of ancient time?" <br>
 thats kinda it.
+
+# How to visit the site ?
+just click this link: <br>
+https://sasukesyntax.github.io/Traveler-s-Marketplace/
