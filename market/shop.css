@@ -167,3 +167,44 @@ body {
 
     transform: scale(1.05);
 }
+
+/* .for-mobile {
+    display: none;
+    width: 0;
+    height: 0;
+} */
+
+@media (max-width:700px) {
+    .medium-container {
+    width: 90%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+    margin: 20px 0;
+    }
+
+    .first-half {
+        width: 100%;
+    }
+
+    .second-half {
+        width: 100%;
+
+        margin: 20px 0;
+    }
+
+    /* .for-mobile {
+        display: block;
+    }
+
+    .for-desktop {
+        display: none;
+        width: 0;
+        height: 0;
+    } */
+
+}

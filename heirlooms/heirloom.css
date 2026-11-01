@@ -17,6 +17,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    animation: easeInOnLoad 1.2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
 }
 
 .THELINE {
@@ -74,21 +76,29 @@ body {
 #one {
     border-right: 2px solid rgb(117, 30, 30);
     border-bottom: 2px solid rgb(117, 30, 30);
+
+    animation: easeInOnLoad 1.2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
 }
 
 #two {
     border-left: 2px solid rgb(117, 30, 30);
     border-bottom: 2px solid rgb(117, 30, 30);
+
+    animation: easeInOnLoad 1.2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
 }
 
 #three {
     border-right: 2px solid rgb(117, 30, 30);
     border-top: 2px solid rgb(117, 30, 30);
+
+    animation: easeInOnLoad 1.2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
 }
 
 #four {
     border-left: 2px solid rgb(117, 30, 30);
     border-top: 2px solid rgb(117, 30, 30);
+
+    animation: easeInOnLoad 1.2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
 }
 
 @media (max-width:750px) {
@@ -108,4 +118,36 @@ body {
         grid-template-columns: 1fr;
     }
 
+    
+
 }
+
+@keyframes easeInOnLoad {
+  from {
+    opacity: 0;
+    transform: translateY(20px); 
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-scroll {
+  animation: revealOnScroll linear both;
+  animation-timeline: view();
+  animation-range: entry 10% cover 40%;
+}
+
+/* Scroll animation keyframes */
+@keyframes revealOnScroll {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
